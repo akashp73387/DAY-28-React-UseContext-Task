@@ -1,0 +1,64 @@
+ @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+*{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 400;
+
+}
+body{
+  background-color:rgb(186, 199, 199);
+  
+}
+.rating-color {
+  color: #fbc634 !important;
+}
+
+.small-ratings i {
+  color: #cecece;
+}
+
+.review-stat {
+  font-size: 18px;
+}
+.subtotal{
+  border-top: lightgray 1px solid;
+  }
+.product-img{
+  padding: 3%;
+}
+.quantity{
+  padding: 10px !important;
+  
+}
+.navbar,.navbar-brand{
+  padding-right: 40px !important;
+ font-size:  18px !important;
+}
+.header{
+  font-size: 20px !important;
+}
+
+header ,nav,footer{
+  background: rgba( 255, 255, 255, 0.3 );
+  backdrop-filter: blur( 4  px );
+  -webkit-backdrop-filter: blur( 8px );
+  -webkit-box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.75);
+}
+
+header .row{
+  padding: 5px 15%;
+}
+
+.cardcss{
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
+
+  
+@media screen and (max-width: 1000px) {
+  .cardcss {
+    margin-top: 15%;
+  }
+}
